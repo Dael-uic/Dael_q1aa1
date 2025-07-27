@@ -1,0 +1,157 @@
+.left-upbox, .left-downbox {
+    width: 20%;
+    height: 38vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border-radius: 10px; /* Adjust the value for more or less rounding */
+}
+.left-upbox{
+    background-color: #DED3C8;
+}
+.left-downbox{
+    background-color: #E5B75E;
+}
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+}
+
+.container1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 85vh;
+    width: 50vw;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.rightlength-content{
+    position: absolute;
+    right: 2.5vw;
+    top: 2.1vh;
+    width: 20%;
+    height: 53vh;
+    border: 1px solid black;
+    background-color: #DCD1FC;
+    border-radius: 10px; /* Adjust the value for more or less rounding */
+}
+
+.main-content{
+    position: absolute;
+    left: 27.8%;
+    top: 2.9%;
+    width: 44%;
+    height: 28vh;
+    border: 1px solid black;
+    border-radius: 10px; /* Adjust the value for more or less rounding */
+    background-color: #7651DC;
+}
+.mini-section1{
+    position: absolute;
+    left: 27.8%;
+    top: 33vh;
+    width: 20.5%;
+    height: 22.1vh;
+    border: 1px solid black;
+    border-radius: 10px; /* Adjust the value for more or less rounding */
+    background-color: snow;
+}
+
+.mini-section2{
+    position: absolute;
+    left: 51%;
+    top: 33vh;
+    width: 20.5%;
+    height: 22.1vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #E5B75E;
+}
+
+.mini-section3{
+    position: absolute;
+    left: 27.8%;
+    top: 57vh;
+    width: 20.5%;
+    height: 23.4vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: snow;
+}
+.bellow-aside{
+    position: absolute;
+    left: 50.9%;
+    top: 57vh;
+    width: 44%;
+    height: 23.4vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #7651DC;
+}
+.s12{
+    font-family: 'DM Sans 14pt Thin', 'DM Sans', Arial, Helvetica, sans-serif;
+    font-size: clamp(1.2rem, 2vw + 1vh, 3rem);
+    color: white;
+    font-weight: bold;
+    font-style: normal; 
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 0vh;
+    margin-top: 1vh;
+}
+.s1{
+    font-family: 'DM Sans 14pt Thin', 'DM Sans', Arial, Helvetica, sans-serif;
+    font-size: clamp(1.2rem, 2vw + 1vh, 3rem);
+    color: white;
+    font-weight: bold;
+    font-style: normal; 
+}
+
+.s111{
+    font-family: 'DM Sans 14pt Thin', 'DM Sans', Arial, Helvetica, sans-serif;
+    font-size: clamp(0.1em, 0.8vw + 0.5vh, 1.4em);
+    color: white;
+    font-style: normal; 
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.yellow-t{
+    color: #E5B75E;
+    font-family: 'DM Sans 14pt Thin', 'DM Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.italic-w{
+    font-family: 'DM Sans 14pt Thin', 'DM Sans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: clamp(1.2rem, 2vw + 1vh, 3rem);
+    margin-bottom: 2vh;
+    margin-top: -1vh;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px; /* Optional: add rounded corners */
+}
+
+.s13{
+    font-family: 'DM Sans', 'DM Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: clamp(1.2rem, 1.3em, 3rem);
+    color: black;
+    margin-left: 0.8vw;
+    margin-top: 2vh;
+    margin-bottom: -2vh;
+}
